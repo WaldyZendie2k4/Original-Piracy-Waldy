@@ -3,7 +3,7 @@ from os import path as ospath, environ
 from subprocess import run as srun
 from requests import get as rget
 
-UPSTREAM_REPO = "https://github.com/prajith2252/url-filebot"#environ.get('UPSTREAM_REPO')
+UPSTREAM_REPO = "https://github.com/Jith2252/jithu_tma-bot"#environ.get('UPSTREAM_REPO')
 UPSTREAM_BRANCH = "main" 
 try:
     if len(UPSTREAM_REPO) == 0:
