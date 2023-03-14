@@ -385,7 +385,7 @@ def humanbytes(size):
 async def get_shortlink(link, query=query):
     if AUTH_USERS:
         if query.from_user and query.from_user.id in AUTH_USERS:
-            return True
+            return link
         else:
             jack = cget(f'https://{URL_SHORTENR_WEBSITE}/api?api={URL_SHORTNER_WEBSITE_API}&url={link}&format=text').text
             return jack 
