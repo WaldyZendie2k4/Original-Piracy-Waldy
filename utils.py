@@ -382,9 +382,9 @@ def humanbytes(size):
         n += 1
     return str(round(size, 2)) + " " + Dic_powerN[n] + 'B'
 
-async def get_shortlink(link, query):
+async def get_shortlink(link, msg):
     if AUTH_USERS:
-        if query.from_user and query.from_user.id in AUTH_USERS:
+        if msg.from_user and msg.from_user.id in AUTH_USERS:
             return link
         else:
             jack = cget(f'https://{URL_SHORTENR_WEBSITE}/api?api={URL_SHORTNER_WEBSITE_API}&url={link}&format=text').text
