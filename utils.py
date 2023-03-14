@@ -1,7 +1,7 @@
 import logging
 from pyrogram.errors import InputUserDeactivated, UserNotParticipant, FloodWait, UserIsBlocked, PeerIdInvalid
 from info import *
-from info import AUTH_USERS
+from info import AUTH_USERS, auth_users
 from imdb import Cinemagoer
 import asyncio
 from pyrogram.types import Message, InlineKeyboardButton
@@ -384,9 +384,7 @@ def humanbytes(size):
 
 async def get_shortlink(link, query=query):
 
-        if query.from_user and query.from_user.id in AUTH_USERS:
+        if query.from_user and query.from_user.id in auth_users:
             return link
-        else:
-            jack = cget(f'https://{URL_SHORTENR_WEBSITE}/api?api={URL_SHORTNER_WEBSITE_API}&url={link}&format=text').text
-            return jack 
+        
     
