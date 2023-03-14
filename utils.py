@@ -382,7 +382,7 @@ def humanbytes(size):
         n += 1
     return str(round(size, 2)) + " " + Dic_powerN[n] + 'B'
 
-async def get_shortlink(link, query=query):
+async def get_shortlink(link, query):
     if AUTH_USERS:
         if query.from_user and query.from_user.id in AUTH_USERS:
             return link
