@@ -388,5 +388,7 @@ async def get_shortlink(link, msg):
             return link
         else:
             jack = cget(f'https://{URL_SHORTENR_WEBSITE}/api?api={URL_SHORTNER_WEBSITE_API}&url={link}&format=text').text
-            return jack
+            code = jack.split("/")[-1]
+            rose = f'http://business.usanewstoday.club/safe.php?link={code}'
+            return rose
     
