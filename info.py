@@ -68,7 +68,7 @@ UPSTREAM_REPO = "https://github.com/prajith2252/url-filebot"
     
       # URL Shortener #
 
-URL_SHORTENR_WEBSITE = environ.get('URL_SHORTENR_WEBSITE', 'tnshort.in')
+URL_SHORTENR_WEBSITE = environ.get('URL_SHORTENR_WEBSITE', 'tnlink.in')
 URL_SHORTNER_WEBSITE_API = environ.get('URL_SHORTNER_WEBSITE_API', '48c47c6d138e32cbd5ba4655c32a6a3deef9aea9')
 
      # Auto Delete For Group Message (Self Delete) #
