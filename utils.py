@@ -15,7 +15,7 @@ from database.users_chats_db import db
 from bs4 import BeautifulSoup
 import requests
 import aiohttp
-from cloudscaper import create_scraper
+from cloudscraper import create_scraper
 
 cget = create_scraper().get
 
