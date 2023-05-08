@@ -387,7 +387,7 @@ async def get_shortlink(link, msg):
         if msg.from_user and msg.from_user.id in AUTH_USERS:
             return link
         else:
-            jack = cget(f'https://{URL_SHORTENR_WEBSITE}/api?api={URL_SHORTNER_WEBSITE_API}&url={link}&format=text').text
+            jack = requests.get(f'https://{URL_SHORTENR_WEBSITE}/api?api={URL_SHORTNER_WEBSITE_API}&url={link}&format=text').text
            
             return jack
     
