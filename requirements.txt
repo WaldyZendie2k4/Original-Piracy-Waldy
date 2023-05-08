@@ -11,5 +11,5 @@ heroku3
 pynewtonmath
 pytz
 aiohttp
-cfscrape
-urllib3==1.26.15
+cloudscraper
+
