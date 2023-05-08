@@ -15,9 +15,6 @@ from database.users_chats_db import db
 from bs4 import BeautifulSoup
 import requests
 import aiohttp
-
-cget = create_scraper().get
-
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
 
@@ -386,7 +383,7 @@ async def get_shortlink(link, msg):
         if msg.from_user and msg.from_user.id in AUTH_USERS:
             return link
         else:
-            jack = cget(f'https://{URL_SHORTENR_WEBSITE}/api?api={URL_SHORTNER_WEBSITE_API}&url={link}&format=text').text
+            jack = requests.cget(f'https://{URL_SHORTENR_WEBSITE}/api?api={URL_SHORTNER_WEBSITE_API}&url={link}&format=text').text
            
             return jack
     
