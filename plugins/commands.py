@@ -23,10 +23,10 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
             [
-                InlineKeyboardButton('⚡ UᎮDΛTΞS ⚡', url='https://t.me/tmabackup')
+                InlineKeyboardButton('⚡ UᎮDΛTΞS ⚡', url='https://t.me/TG_Movies4u')
             ],
             [
-                InlineKeyboardButton('⚡ Request group ⚡', url=f"https://t.me/tmadiscuss"),
+                InlineKeyboardButton('⚡ Request group ⚡', url=f"https://t.me/+bTTLRxDIHXhhNWM1"),
             ],
             [
                 InlineKeyboardButton(text=DOWNLOAD_TEXT_NAME,url=DOWNLOAD_TEXT_URL)
@@ -46,12 +46,12 @@ async def start(client, message):
     if len(message.command) != 2:
         buttons = [
             [
-            InlineKeyboardButton('How To Use our Bot', url='https://telegram.me/how_to_use_tmafilesbot/2')
+            InlineKeyboardButton('How To Use our Bot', url='https://telegram.me/KumarValimaiOfcl')
         ],[
-            InlineKeyboardButton('🤖 Channel', url='https://telegram.me/tmaadda'),
-            InlineKeyboardButton('👥 Support Chat', url='https://telegram.me/tmadiscuss')
+            InlineKeyboardButton('🤖 Channel', url='https://telegram.me/TG_Movies4u'),
+            InlineKeyboardButton('👥 Support Chat', url='https://telegram.me/Kumarvalimaibot')
             ],[
-            InlineKeyboardButton('💲 Get Premium Access', url='https://T.me/TmaSupportBot')
+            InlineKeyboardButton('💲 Get Premium Access', url='https://T.me/TgmPremiumBot')
             
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -93,12 +93,12 @@ async def start(client, message):
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [
             [
-            InlineKeyboardButton('How To Use our Bot', url='https://telegram.me/how_to_use_tmafilesbot/2')
+            InlineKeyboardButton('How To Use our Bot', url='https://telegram.me/KumarValimaiOfcl')
         ],[
-            InlineKeyboardButton('🤖 Channel', url='https://telegram.me/tmaadda'),
-            InlineKeyboardButton('👥 Support Chat', url='https://telegram.me/tmadiscuss')
+            InlineKeyboardButton('🤖 Channel', url='https://telegram.me/TG_Movies4u'),
+            InlineKeyboardButton('👥 Support Chat', url='https://telegram.me/kumarvalimaibot')
             ],[
-            InlineKeyboardButton('💲 Get Premium Access', url='https://T.me/TmaSupportBot')
+            InlineKeyboardButton('💲 Get Premium Access', url='https://T.me/TgmPremiumBot')
             
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -249,7 +249,7 @@ async def start(client, message):
         chat_id=message.from_user.id,
         file_id=file_id,
         caption=f_caption,
-        reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('sᴜʙsᴄʀɪʙᴇ', url='https://t.me/tmabackup') ] ] ),
+        reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('sᴜʙsᴄʀɪʙᴇ', url='https://t.me/TG_Movies4u') ] ] ),
         protect_content=True if pre == 'filep' else False,
         )
                     
