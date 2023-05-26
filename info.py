@@ -12,39 +12,39 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = 9301845 #int(environ.get('API_ID', '9301845'))
-API_HASH = '563e9fd30b529442b705c7230f766b83'#environ.get('API_HASH', '563e9fd30b529442b705c7230f766b83')
-BOT_TOKEN = '5003449601:AAHRnchyfFt0IjF8qbwEEcSq1IKrlr21asw'#environ.get('BOT_TOKEN', "")
+API_ID = 15063227 #int(environ.get('API_ID', '15063227'))
+API_HASH = 'f47faeb11641a6b267797e69728d1bd2'#environ.get('API_HASH', 'f47faeb11641a6b267797e69728d1bd2')
+BOT_TOKEN = '5675651874:AAFYMWZglJErL6r3KaOd8b6Z9Y-OdIeAcSc'#environ.get('BOT_TOKEN', "5675651874:AAFYMWZglJErL6r3KaOd8b6Z9Y-OdIeAcSc")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', False))
-PICS = (environ.get('PICS', 'https://telegra.ph/file/b6f42af4d20b757b46d73.jpg')).split()
+PICS = (environ.get('PICS', 'https://graph.org/file/fc845430c8abc77c776e2.jpg')).split()
 
 # Admins, Channels & Users
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1952992043 5673274527 5348874903 617075060').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001201699325 -1001511163820 -1001435020763 -1001438293617 -1001556008450 -1001291060083 -1001465431548 -1001227500379 -1001543949874 -1001558654003 -1001438293617 -1001479888204 -1001610031839 -1001435020763 -1001636626174 -1001445318928 -1001625705075 -1001274297517 -1001374485034 -1001625705075 -1001722756764 -1001543052371 -1001651078319 -1001897929503 -1001894642188').split()]
-auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '969099516 1653923821').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001543052371 -1001532145811 -1001894642188').split()]
+auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '969099516 1653923821').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
-auth_channel = environ.get('AUTH_CHANNEL', '')
+auth_channel = environ.get('AUTH_CHANNEL', '-1001732050256')
 auth_grp = environ.get('AUTH_GROUP')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None 
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://tmaadda:tmaadda@cluster0.8vqs89z.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "Tmamoviesbottt")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://starktg:tgstark@cluster0.vmvamw4.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_NAME = environ.get('DATABASE_NAME', "bot")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001694472922'))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'tmasupportbot')
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001627983128'))
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'kumarvalimaibot')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
 IMDB = is_enabled((environ.get('IMDB', "False")), False)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "True")), False)
-CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "<b>{file_caption} \n Size :- <i>{file_size}</i> \n Join [TMAAdda](https://telegram.me/tmaadda)</b>")
-BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", "<b>{file_caption} \n Size :- <i>{file_size}</i> \n Join [TMAAdda](https://telegram.me/tmaadda)</b>")
-IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", "🧿 ᴛɪᴛᴛʟᴇ :  {title} \n🌟 ʀᴀᴛɪɴɢ : {rating} \n🎭 ɢᴇɴʀᴇ : {genres} \n📆 ʀᴇʟᴇᴀsᴇ : {year} \n⏰ ᴅᴜʀᴀᴛɪᴏɴ : {runtime} \n🎙️ʟᴀɴɢᴜᴀɢᴇ : {languages} \n🔖 sʜᴏʀᴛ : {plot} \n★ ᴘᴏᴡᴇʀᴇᴅ ʙʏ : @TMAADDA")
+CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "<b>{file_caption} \n Size :- <i>{file_size}</i> \n Join [TGM](https://telegram.me/TG_MOVIES4U)</b>")
+BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", "<b>{file_caption} \n Size :- <i>{file_size}</i> \n Join [TGM](https://telegram.me/TG_MOVIES4U)</b>")
+IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", "🧿 ᴛɪᴛᴛʟᴇ :  {title} \n🌟 ʀᴀᴛɪɴɢ : {rating} \n🎭 ɢᴇɴʀᴇ : {genres} \n📆 ʀᴇʟᴇᴀsᴇ : {year} \n⏰ ᴅᴜʀᴀᴛɪᴏɴ : {runtime} \n🎙️ʟᴀɴɢᴜᴀɢᴇ : {languages} \n🔖 sʜᴏʀᴛ : {plot} \n★ ᴘᴏᴡᴇʀᴇᴅ ʙʏ : @TG_Movies4u)
 LONG_IMDB_DESCRIPTION = is_enabled(environ.get("LONG_IMDB_DESCRIPTION", "False"), False)
 SPELL_CHECK_REPLY = is_enabled(environ.get("SPELL_CHECK_REPLY", "True"), True)
 MAX_LIST_ELM = environ.get("MAX_LIST_ELM", None)
@@ -63,13 +63,13 @@ LOG_STR += ("Long IMDB storyline enabled." if LONG_IMDB_DESCRIPTION else "LONG_I
 LOG_STR += ("Spell Check Mode Is Enabled, bot will be suggesting related movies if movie not found\n" if SPELL_CHECK_REPLY else "SPELL_CHECK_REPLY Mode disabled\n")
 LOG_STR += (f"MAX_LIST_ELM Found, long list will be shortened to first {MAX_LIST_ELM} elements\n" if MAX_LIST_ELM else "Full List of casts and crew will be shown in imdb template, restrict them by adding a value to MAX_LIST_ELM\n")
 LOG_STR += f"Your current IMDB template is {IMDB_TEMPLATE}"
-UPSTREAM_REPO = "https://github.com/prajith2252/url-filebot"
+UPSTREAM_REPO = "https://github.com/bittukittu123/tgm_thankstotma"
 ## EXTRA FEATURES ##
     
       # URL Shortener #
 
-URL_SHORTENR_WEBSITE = environ.get('URL_SHORTENR_WEBSITE', 'tnshort.net')
-URL_SHORTNER_WEBSITE_API = environ.get('URL_SHORTNER_WEBSITE_API', '48c47c6d138e32cbd5ba4655c32a6a3deef9aea9')
+URL_SHORTENR_WEBSITE = environ.get('URL_SHORTENR_WEBSITE', 'tinyfy.in')
+URL_SHORTNER_WEBSITE_API = environ.get('URL_SHORTNER_WEBSITE_API', '2b152c93e35ef8af4a507e6921bbf526a37e46e6')
 
      # Auto Delete For Group Message (Self Delete) #
 SELF_DELETE_SECONDS = int(environ.get('SELF_DELETE_SECONDS', 300))
@@ -79,10 +79,10 @@ if SELF_DELETE == "True":
 
     # Download Tutorial Button #
 DOWNLOAD_TEXT_NAME = "📥 HOW TO DOWNLOAD 📥"
-DOWNLOAD_TEXT_URL = "https://t.me/how_to_use_tmafilesbot"
+DOWNLOAD_TEXT_URL = "https://t.me/KumarValimaiOfcl"
 
    # Custom Caption Under Button #
 CAPTION_BUTTON = "Subscribe"
-CAPTION_BUTTON_URL = "https://telegram.me/TMAAdda"
+CAPTION_BUTTON_URL = "https://telegram.me/TG_Movies4u"
 
    # Auto Delete For Bot Sending Files #
