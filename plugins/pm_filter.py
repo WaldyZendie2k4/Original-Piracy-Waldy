@@ -432,7 +432,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('⚚ How to use our bot ⚚', url='https://telegram.me/how_to_use_tmafilesbot/2')
+            InlineKeyboardButton('⚚ How to use our bot ⚚', url='https://telegram.me/KumarValimaiOfcl')
         ], [
             InlineKeyboardButton('🤖 Channel', url='https://telegram.me/TG_Movies4u'),
             InlineKeyboardButton('👥 Support Chat', url='https://telegram.me/kumarvalimaibot')
