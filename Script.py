@@ -11,18 +11,18 @@ def is_enabled(value, default):
         return default
 
 class script(object):
-    HOME_BUTTONURL_UPDATES = environ.get("HOME_BUTTONURL_UPDATES", 'https://t.me/tmaadda')
-    START_TXT = environ.get("START_TXT", '''<b>Hello {} 👋🏻 Im Search Bot I can share Movies and Series 😁. You will get files for free with ads. To get files without ads buy our premium 10rs/month only</b>
+    HOME_BUTTONURL_UPDATES = environ.get("HOME_BUTTONURL_UPDATES", 'https://t.me/TG_Movies4u')
+    START_TXT = environ.get("START_TXT", '''<b>Hello {} 👋🏻 Im Search Bot I can share Movies and Series 😁. You will get files for free with ads. To get files without ads buy our premium 20rs/month only</b>
 
 <i>Aᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴛᴏ sᴇᴇ ᴛʜᴇ ᴍᴀɢɪᴄ ᴏʀ ʀᴇᴀᴅ ᴍᴏʀᴇ ғʀᴏᴍ ᴛʜᴇ ᴍᴇɴᴜ ʙᴇʟᴏᴡ</i>''')
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝙼𝚈 𝙷𝙴𝙻𝙿 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
-    ABOUT_TXT = """<b><i>🤖 ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/TMAFilesbot><b>Search Bot</b></a>\n
-👨‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/TMASUPPORTBOT><b>TMA</b></a>\n
+    ABOUT_TXT = """<b><i>🤖 ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/TG_Movies4u_Files_bot><b>Search Bot</b></a>\n
+👨‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/TG_Movies4u><b>TGM</b></a>\n
 📝 ʟᴀɴɢᴜᴀɢᴇ : ᴘʏʀᴏɢʀᴀᴍ\n
 📚 ꜰʀᴀᴍᴇᴡᴏʀᴋ : ᴘʏᴛʜᴏɴ 3\n
 📡 ʜᴏsᴛᴇᴅ ᴏɴ : VPS\n
-📢 ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/TMAAdda><b></b>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>\n
+📢 ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/TG_Movies4u><b></b>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>\n
 🌟 ᴠᴇʀsɪᴏɴ : ᴠ 1.3.0\n</b></i>"""
     SOURCE_TXT = """<b>𝐂𝐫𝐞𝐚𝐭𝐞 𝐎𝐧𝐞 𝐋𝐢𝐤𝐞 𝐓𝐡𝐢𝐬:</b>
 » I will Create One Bot For You<b>
