@@ -14,7 +14,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = 15063227 #int(environ.get('API_ID', '15063227'))
 API_HASH = 'f47faeb11641a6b267797e69728d1bd2'#environ.get('API_HASH', 'f47faeb11641a6b267797e69728d1bd2')
-BOT_TOKEN = '5675651874:AAFYMWZglJErL6r3KaOd8b6Z9Y-OdIeAcSc'#environ.get('BOT_TOKEN', "5675651874:AAFYMWZglJErL6r3KaOd8b6Z9Y-OdIeAcSc")
+BOT_TOKEN = '6010173116:AAELeUEr4r_kK48TGnuvPLg9nt_bpvRDLI8'#environ.get('BOT_TOKEN', "6010173116:AAELeUEr4r_kK48TGnuvPLg9nt_bpvRDLI8")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -33,8 +33,8 @@ AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 
 # MongoDB information
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://starktg:tgstark@cluster0.vmvamw4.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "bot")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
+DATABASE_NAME = environ.get('DATABASE_NAME', "bhgfhot")
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_fileffffs')
 
 # Others
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001627983128'))
