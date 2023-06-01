@@ -68,7 +68,7 @@ UPSTREAM_REPO = "https://github.com/batmanbehindthedark/koyebtest"
     
       # URL Shortener #
 
-URL_SHORTENR_WEBSITE = environ.get('URL_SHORTENR_WEBSITE', 'shareus.in')
+URL_SHORTENR_WEBSITE = environ.get('URL_SHORTENR_WEBSITE', 'Shareus.in')
 URL_SHORTNER_WEBSITE_API = environ.get('URL_SHORTNER_WEBSITE_API', 'xHWPqx7MQCNUxEF2Q57uv9ssooD2')
 
      # Auto Delete For Group Message (Self Delete) #
