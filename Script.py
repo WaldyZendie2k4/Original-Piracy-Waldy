@@ -12,7 +12,7 @@ def is_enabled(value, default):
 
 class script(object):
     HOME_BUTTONURL_UPDATES = environ.get("HOME_BUTTONURL_UPDATES", 'https://t.me/TG_Movies4u')
-    START_TXT = environ.get("START_TXT", '''<b>Hello {} 👋🏻 Im Your Friend I can share Movies and Series 😁</b>
+    START_TXT = environ.get("START_TXT", '''<b>Hello {} 👋🏻 Im Your Friend I can share Movies and Series 😁, You Can Get Files With ADS For Free And You Want To Get Files For Free Without Any Ads Premium Per Month 20Rs Contact @TGMPREMIUMBOT. Slots Will Open Every Month From 26-29Th</b>
 
 <i>Aᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴛᴏ sᴇᴇ ᴛʜᴇ ᴍᴀɢɪᴄ ᴏʀ ʀᴇᴀᴅ ᴍᴏʀᴇ ғʀᴏᴍ ᴛʜᴇ ᴍᴇɴᴜ ʙᴇʟᴏᴡ</i>''')
     HELP_TXT = """𝙷𝙴𝚈 {}
@@ -26,7 +26,7 @@ class script(object):
 🌟 ᴠᴇʀsɪᴏɴ : ᴠ 1.3.0\n</b></i>"""
     SOURCE_TXT = """<b>𝐂𝐫𝐞𝐚𝐭𝐞 𝐎𝐧𝐞 𝐋𝐢𝐤𝐞 𝐓𝐡𝐢𝐬:</b>
 » I will Create One Bot For You<b>
-» Contact Me @TMASupportbot<b>"""
+» Contact Me @KumarValimaibot<b>"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
 - Filter is the feature were users can set automated replies for a particular keyword and Search Bot will respond whenever a keyword is found the message
