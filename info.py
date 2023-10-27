@@ -14,7 +14,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = 15063227 #int(environ.get('API_ID', '15063227'))
 API_HASH = 'f47faeb11641a6b267797e69728d1bd2'#environ.get('API_HASH', 'f47faeb11641a6b267797e69728d1bd2')
-BOT_TOKEN = '5675651874:AAHnBoG9GEqY4s4UM19LrlBa64JqUhZYF2w'#environ.get('BOT_TOKEN', "5675651874:AAHnBoG9GEqY4s4UM19LrlBa64JqUhZYF2w")
+BOT_TOKEN = '5675651874:AAGZeT4tkzMQfWL79b6WeVEYR-U5WMEgM9g'#environ.get('BOT_TOKEN', "5675651874:AAGZeT4tkzMQfWL79b6WeVEYR-U5WMEgM9g")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -68,8 +68,8 @@ UPSTREAM_REPO = "https://github.com/batmanbehindthedark/koyebtest"
     
       # URL Shortener #
 
-URL_SHORTENR_WEBSITE = environ.get('URL_SHORTENR_WEBSITE', '')
-URL_SHORTNER_WEBSITE_API = environ.get('URL_SHORTNER_WEBSITE_API', '')
+URL_SHORTENR_WEBSITE = environ.get('URL_SHORTENR_WEBSITE', 'gyanilinks.com')
+URL_SHORTNER_WEBSITE_API = environ.get('URL_SHORTNER_WEBSITE_API', '07dae114087e654528e680a4935e9ea5a38088fb')
 
      # Auto Delete For Group Message (Self Delete) #
 SELF_DELETE_SECONDS = int(environ.get('SELF_DELETE_SECONDS', 300))
