@@ -23,7 +23,7 @@ PICS = (environ.get('PICS', 'https://graph.org/file/fc845430c8abc77c776e2.jpg'))
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '969099516 1653923821').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001543052371 -1001532145811 -1001894642188').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001543052371 -1002146977277 -1001505668760 -1001750398333 -1001986117827 -1001806011751 -1001785770847 -1001823471340 -1001667520022 -1001298605204 -1001898671244 -100502272421 -1001848685071 -1001870057999 -1001965691492 -1001822022486 -1001921674398').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 auth_channel = environ.get('AUTH_CHANNEL', '-1001732050256')
