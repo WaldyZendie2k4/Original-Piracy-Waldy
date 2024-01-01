@@ -12,9 +12,9 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = 15063227 #int(environ.get('API_ID', '15063227'))
-API_HASH = 'f47faeb11641a6b267797e69728d1bd2'#environ.get('API_HASH', 'f47faeb11641a6b267797e69728d1bd2')
-BOT_TOKEN = '5675651874:AAG2rg-X-_pAVzZUJMERzbS8hkv5hB02b2U'#environ.get('BOT_TOKEN', "5675651874:AAG2rg-X-_pAVzZUJMERzbS8hkv5hB02b2U")
+API_ID = 22217932 #int(environ.get('API_ID', '22217932'))
+API_HASH = 'd722db74da63a9e46ba2dcba49c69a4c'#environ.get('API_HASH', 'd722db74da63a9e46ba2dcba49c69a4c')
+BOT_TOKEN = '6697699642:AAHPnUof1IEt_XfW233j13bxLBm1AfXMnTM'#environ.get('BOT_TOKEN', "6697699642:AAHPnUof1IEt_XfW233j13bxLBm1AfXMnTM")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -22,22 +22,22 @@ USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', False))
 PICS = (environ.get('PICS', 'https://graph.org/file/fc845430c8abc77c776e2.jpg')).split()
 
 # Admins, Channels & Users
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '969099516 1653923821').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001543052371 -1002146977277 -1001505668760 -1001750398333 -1001986117827 -1001806011751 -1001785770847 -1001823471340 -1001667520022 -1001298605204 -1001898671244 -100502272421 -1001848685071 -1001870057999 -1001965691492 -1001822022486 -1001921674398').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1395772318').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001985752891').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
-auth_channel = environ.get('AUTH_CHANNEL', '-1001732050256')
+auth_channel = environ.get('AUTH_CHANNEL', '')
 auth_grp = environ.get('AUTH_GROUP')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None 
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://starktg:tgstark@cluster0.vmvamw4.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "bot")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://check:check@cluster0.vfrzuzj.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_NAME = environ.get('DATABASE_NAME', "check")
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'check')
 
 # Others
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001627983128'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001982148559'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'kumarvalimaibot')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "False")), False)
