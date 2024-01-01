@@ -12,7 +12,7 @@ def is_enabled(value, default):
 
 class script(object):
     HOME_BUTTONURL_UPDATES = environ.get("HOME_BUTTONURL_UPDATES", 'https://t.me/Waldy_Writings')
-    START_TXT = environ.get("START_TXT", '''<b>Hello {} ⚡️...I Am Waldy Writings Movie Search Bot, I can share Movies and Series 😁
+    START_TXT = environ.get("START_TXT", '''<b>Hello {} ⚡️...I Am PIRACY MOVIE WALDY SEARCH BOT, I can share Piracy Movies 🙈
 
 You Will Get Files For Free With Ads. To Get Files Without Any Ads Buy Our Premium Per Month 20Rs/Month Only...
 
@@ -21,7 +21,7 @@ Contact @Waldy_PremiumBot. Slots Will Open From 28th to 30 Every Month</b>
 <i>Aᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴛᴏ sᴇᴇ ᴛʜᴇ ᴍᴀɢɪᴄ ᴏʀ ʀᴇᴀᴅ ᴍᴏʀᴇ ғʀᴏᴍ ᴛʜᴇ ᴍᴇɴᴜ ʙᴇʟᴏᴡ</i>''')
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝙼𝚈 𝙷𝙴𝙻𝙿 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
-    ABOUT_TXT = """<b><i>🤖 ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/Waldy_Writingss_SearchBot><b>Search Bot</b></a>\n
+    ABOUT_TXT = """<b><i>🤖 ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/Piracy_Movie_SearchBot><b>Search Bot</b></a>\n
 👨‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/Waldy_Writings><b>WALDY</b></a>\n
 📝 ʟᴀɴɢᴜᴀɢᴇ : ᴘʏʀᴏɢʀᴀᴍ\n
 📚 ꜰʀᴀᴍᴇᴡᴏʀᴋ : ᴘʏᴛʜᴏɴ 3\n
