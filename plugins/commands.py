@@ -23,10 +23,10 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
             [
-                InlineKeyboardButton('⚡ UᎮDΛTΞS ⚡', url='https://t.me/TG_Movies4u')
+                InlineKeyboardButton('⚡ UᎮDΛTΞS ⚡', url='https://t.me/Waldy_Writings')
             ],
             [
-                InlineKeyboardButton('⚡ Request group ⚡', url=f"https://t.me/+bTTLRxDIHXhhNWM1"),
+                InlineKeyboardButton('⚡ Request group ⚡', url=f"https://t.me/+sVRha-mxG9llZWI1"),
             ],
             [
                 InlineKeyboardButton(text=DOWNLOAD_TEXT_NAME,url=DOWNLOAD_TEXT_URL)
@@ -46,12 +46,12 @@ async def start(client, message):
     if len(message.command) != 2:
         buttons = [
             [
-            InlineKeyboardButton('How To Use our Bot', url='https://telegram.me/KumarValimaiOfcl')
+            InlineKeyboardButton('How To Use our Bot', url='https://telegram.me/Waldy_Writings')
         ],[
-            InlineKeyboardButton('🤖 Channel', url='https://telegram.me/TG_Movies4u'),
-            InlineKeyboardButton('👥 Support Chat', url='https://telegram.me/Kumarvalimaibot')
+            InlineKeyboardButton('🤖 Channel', url='https://telegram.me/Waldy_Writings'),
+            InlineKeyboardButton('👥 Support Chat', url='https://telegram.me/WaldyWritings_Bot')
             ],[
-            InlineKeyboardButton('💲 Get Premium Access', url='https://T.me/TgmPremiumBot')
+            InlineKeyboardButton('💲 Get Premium Access', url='https://T.me/Waldy_PremiumBot')
             
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -93,12 +93,12 @@ async def start(client, message):
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [
             [
-            InlineKeyboardButton('How To Use our Bot', url='https://telegram.me/KumarValimaiOfcl')
+            InlineKeyboardButton('How To Use our Bot', url='https://telegram.me/Waldy_Writings')
         ],[
-            InlineKeyboardButton('🤖 Channel', url='https://telegram.me/TG_Movies4u'),
-            InlineKeyboardButton('👥 Support Chat', url='https://telegram.me/kumarvalimaibot')
+            InlineKeyboardButton('🤖 Channel', url='https://telegram.me/Waldy_Writings'),
+            InlineKeyboardButton('👥 Support Chat', url='https://telegram.me/WaldyWritings_Bot')
             ],[
-            InlineKeyboardButton('💲 Get Premium Access', url='https://T.me/TgmPremiumBot')
+            InlineKeyboardButton('💲 Get Premium Access', url='https://T.me/Waldy_PremiumBot')
             
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
