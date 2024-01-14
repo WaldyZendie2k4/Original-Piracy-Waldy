@@ -108,7 +108,7 @@ async def next_page(bot, query):
 
     btn.insert(0,
         [
-            InlineKeyboardButton(text="⚡ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ⚡", url='https://t.me/Waldy_Writings')
+            InlineKeyboardButton(text="⚡ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ⚡", url='https://t.me/WaldyWritings_Official/5')
         ]
     )
 
@@ -432,9 +432,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('How To Use our Bot', url='https://telegram.me/Waldy_Writings')
+            InlineKeyboardButton('How To Use our Bot', url='https://telegram.me/WaldyWritings_Official/5')
         ],[
-            InlineKeyboardButton('🤖 Channel', url='https://telegram.me/Waldy_Writings'),
+            InlineKeyboardButton('🤖 Channel', url='https://telegram.me/WaldyWritings_Official'),
             InlineKeyboardButton('👥 Support Chat', url='https://telegram.me/WaldyWritings_Bot')
             ],[
             InlineKeyboardButton('💲 Get Premium Access', url='https://T.me/Waldy_PremiumBot')
