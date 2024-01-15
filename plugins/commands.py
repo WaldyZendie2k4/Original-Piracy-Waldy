@@ -23,7 +23,7 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
             [
-                InlineKeyboardButton('⚡ UᎮDΛTΞS ⚡', url='https://t.me/WaldyWritings_Official')
+                InlineKeyboardButton('⚡ UᎮDΛTΞS ⚡', url='https://t.me/Waldy_Writings')
             ],
             [
                 InlineKeyboardButton('⚡ Request group ⚡', url=f"https://t.me/+sVRha-mxG9llZWI1"),
@@ -46,9 +46,9 @@ async def start(client, message):
     if len(message.command) != 2:
         buttons = [
             [
-            InlineKeyboardButton('How To Use our Bot', url='https://telegram.me/WaldyWritings_Official/5')
+            InlineKeyboardButton('How To Use our Bot', url='https://telegram.me/Waldy_Writings')
         ],[
-            InlineKeyboardButton('🤖 Channel', url='https://telegram.me/WaldyWritings_Official'),
+            InlineKeyboardButton('🤖 Channel', url='https://telegram.me/Waldy_Writings'),
             InlineKeyboardButton('👥 Support Chat', url='https://telegram.me/WaldyWritings_Bot')
             ],[
             InlineKeyboardButton('💲 Get Premium Access', url='https://T.me/Waldy_PremiumBot')
@@ -93,9 +93,9 @@ async def start(client, message):
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [
             [
-            InlineKeyboardButton('How To Use our Bot', url='https://telegram.me/WaldyWritings_Official/5')
+            InlineKeyboardButton('How To Use our Bot', url='https://telegram.me/Waldy_Writings')
         ],[
-            InlineKeyboardButton('🤖 Channel', url='https://telegram.me/WaldyWritings_Official'),
+            InlineKeyboardButton('🤖 Channel', url='https://telegram.me/Waldy_Writings'),
             InlineKeyboardButton('👥 Support Chat', url='https://telegram.me/WaldyWritings_Bot')
             ],[
             InlineKeyboardButton('💲 Get Premium Access', url='https://T.me/Waldy_PremiumBot')
@@ -249,7 +249,7 @@ async def start(client, message):
         chat_id=message.from_user.id,
         file_id=file_id,
         caption=f_caption,
-        reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('sᴜʙsᴄʀɪʙᴇ', url='https://t.me/WaldyWritings_Official') ] ] ),
+        reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('sᴜʙsᴄʀɪʙᴇ', url='https://t.me/Waldy_Writings') ] ] ),
         protect_content=True if pre == 'filep' else False,
         )
                     
