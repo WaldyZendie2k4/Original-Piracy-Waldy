@@ -20,6 +20,7 @@ from database.filters_mdb import (
     find_filter,
     get_filters,
 )
+lock = asyncio.Lock()
 import logging
 
 logger = logging.getLogger(__name__)
