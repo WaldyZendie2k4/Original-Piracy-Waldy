@@ -109,7 +109,7 @@ async def next_page(bot, query):
 
     btn.insert(0,
         [
-            InlineKeyboardButton(text="⚡ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ⚡", url='https://t.me/Waldy_Writings')
+            InlineKeyboardButton(text="⚡ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ⚡", url='https://t.me/WMF_Official')
         ]
     )
 
@@ -433,12 +433,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('How To Use our Bot', url='https://telegram.me/Waldy_Writings')
+            InlineKeyboardButton('How To Use our Bot', url='https://telegram.me/WMF_Official')
         ],[
-            InlineKeyboardButton('🤖 Channel', url='https://telegram.me/Waldy_Writings'),
-            InlineKeyboardButton('👥 Support Chat', url='https://telegram.me/WaldyWritings_Bot')
+            InlineKeyboardButton('🤖 Channel', url='https://telegram.me/WMF_OFFICIAL'),
+            InlineKeyboardButton('👥 Support Chat', url='https://telegram.me/WMF_PremiumSubBot')
             ],[
-            InlineKeyboardButton('💲 Get Premium Access', url='https://T.me/Waldy_PremiumBot')
+            InlineKeyboardButton('💲 Get Premium Access', url='https://T.me/WMF_PremiumSubBot')
             
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -713,7 +713,7 @@ async def auto_filter(client, msg, spoll=False):
 
     btn.insert(0,
         [
-            InlineKeyboardButton(text="⚡ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ⚡", url='https://t.me/KumarValimaiOfcl')
+            InlineKeyboardButton(text="⚡ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ⚡", url='https://t.me/WMF_OFFICIAL')
         ]
     )
 
