@@ -14,7 +14,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = 26280398 #int(environ.get('API_ID', '26280398'))
 API_HASH = 'd1aeb05b76126cf27ff580242ea826a8'#environ.get('API_HASH', 'd1aeb05b76126cf27ff580242ea826a8')
-BOT_TOKEN = '7207244054:AAFffsrYQmayfIJ8XZXNZz37HEMkhxCHZ38'#environ.get('BOT_TOKEN', "7207244054:AAFffsrYQmayfIJ8XZXNZz37HEMkhxCHZ38")
+BOT_TOKEN = '7256572450:AAHgIS4M0Yzaxp9DxzM47wHo8ro0jnDRDKw'#environ.get('BOT_TOKEN', "7256572450:AAHgIS4M0Yzaxp9DxzM47wHo8ro0jnDRDKw")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -23,7 +23,7 @@ PICS = (environ.get('PICS', 'https://telegra.ph/file/97cc4a8b2531a08fb4958.jpg h
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6903259584').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001798968357').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002229860310').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 auth_channel = environ.get('AUTH_CHANNEL', '-1001874705516')
@@ -32,12 +32,12 @@ AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_chan
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://brucewayne:brucewayne@cluster0.msoafcl.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "bruce1")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_filess')
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://WMF:WMF@cluster0.u9014i9.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_NAME = environ.get('DATABASE_NAME', "waldyfilesbot")
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'waldyfilesbot')
 
 # Others
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001878333867'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001564865764'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'WMF_PremiumSubBot')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "False")), False)
