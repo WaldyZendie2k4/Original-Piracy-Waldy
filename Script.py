@@ -11,22 +11,18 @@ def is_enabled(value, default):
         return default
 
 class script(object):
-    HOME_BUTTONURL_UPDATES = environ.get("HOME_BUTTONURL_UPDATES", 'https://t.me/Waldy_Writings')
-    START_TXT = environ.get("START_TXT", '''<b>Hello {} ⚡️...I Am PIRACY MOVIE WALDY SEARCH BOT, I can share Piracy Movies 🙈
-
-You Will Get Files For Free With Ads. To Get Files Without Any Ads Buy Our Premium Per Month 20Rs/Month Only...
-
-Contact @Waldy_PremiumBot. Slots Will Open From 28th to 30 Every Month</b>
+    HOME_BUTTONURL_UPDATES = environ.get("HOME_BUTTONURL_UPDATES", 'https://t.me/WMF_Official')
+    START_TXT = environ.get("START_TXT", '''<b>ʜᴇʏ ᴍᴀᴡᴀ\n\nɪ'ᴍ ʜᴅ ᴍᴏᴠɪᴇꜱ ʙᴏᴛ, ɪ'ʟʟ ɢɪᴠᴇ ʏᴏᴜ ᴀɴʏ ᴍᴏᴠɪᴇ ʏᴏᴜ ᴀꜱᴋ... ᴘʀᴇᴍɪᴜᴍ ꜱʟᴏᴛꜱ ᴡɪʟʟ ʙᴇ ᴏᴘᴇɴᴇᴅ ᴀᴛ ᴍᴏɴᴛʜ ᴇɴᴅ ᴏɴʟʏ.\n\nᴍᴀɴᴛᴀɪɴᴇᴅ ʙʏ : <a href="https://t.me/WMF_OFFICIAL">ᴡᴍꜰ x ᴡᴀʟᴅʏ</a>"</b>
 
 <i>Aᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴛᴏ sᴇᴇ ᴛʜᴇ ᴍᴀɢɪᴄ ᴏʀ ʀᴇᴀᴅ ᴍᴏʀᴇ ғʀᴏᴍ ᴛʜᴇ ᴍᴇɴᴜ ʙᴇʟᴏᴡ</i>''')
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝙼𝚈 𝙷𝙴𝙻𝙿 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
-    ABOUT_TXT = """<b><i>🤖 ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/Piracy_Movie_SearchBot><b>Search Bot</b></a>\n
-👨‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/Waldy_Writings><b>WALDY</b></a>\n
+    ABOUT_TXT = """<b><i>🤖 ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/HDMovie_WMFBot><b>HD Movie Search Bot</b></a>\n
+👨‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/WMF_Official><b>ᴡᴍꜰ x ᴡᴀʟᴅʏ</b></a>\n
 📝 ʟᴀɴɢᴜᴀɢᴇ : ᴘʏʀᴏɢʀᴀᴍ\n
 📚 ꜰʀᴀᴍᴇᴡᴏʀᴋ : ᴘʏᴛʜᴏɴ 3\n
 📡 ʜᴏsᴛᴇᴅ ᴏɴ : VPS\n
-📢 ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/Waldy_Writings><b></b>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>\n
+📢 ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/WMF_Official><b></b>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>\n
 🌟 ᴠᴇʀsɪᴏɴ : ᴠ 1.3.0\n</b></i>"""
     SOURCE_TXT = """<b>𝐂𝐫𝐞𝐚𝐭𝐞 𝐎𝐧𝐞 𝐋𝐢𝐤𝐞 𝐓𝐡𝐢𝐬:</b>
 » I will Create One Bot For You<b>
