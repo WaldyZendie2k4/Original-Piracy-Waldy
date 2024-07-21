@@ -12,12 +12,12 @@ def is_enabled(value, default):
 
 class script(object):
     HOME_BUTTONURL_UPDATES = environ.get("HOME_BUTTONURL_UPDATES", 'https://t.me/WMF_Official')
-    START_TXT = environ.get("START_TXT", '''<b>ʜᴇʏ ᴍᴀᴡᴀ\n\nɪ'ᴍ ʜᴅ ᴍᴏᴠɪᴇꜱ ʙᴏᴛ, ɪ'ʟʟ ɢɪᴠᴇ ʏᴏᴜ ᴀɴʏ ᴍᴏᴠɪᴇ ʏᴏᴜ ᴀꜱᴋ... ᴘʀᴇᴍɪᴜᴍ ꜱʟᴏᴛꜱ ᴡɪʟʟ ʙᴇ ᴏᴘᴇɴᴇᴅ ᴀᴛ ᴍᴏɴᴛʜ ᴇɴᴅ ᴏɴʟʏ.\n\nᴍᴀɴᴛᴀɪɴᴇᴅ ʙʏ : <a href="https://t.me/WMF_OFFICIAL">ᴡᴍꜰ x ᴡᴀʟᴅʏ</a>"</b>
+    START_TXT = environ.get("START_TXT", '''<b>ʜᴇʏ ᴍᴀᴡᴀ\n\nɪ'ᴍ ᴘɪʀᴀᴄʏ ᴍᴏᴠɪᴇꜱ ʙᴏᴛ, ɪ'ʟʟ ɢɪᴠᴇ ʏᴏᴜ ᴀɴʏ ᴍᴏᴠɪᴇ ʏᴏᴜ ᴀꜱᴋ... ᴘʀᴇᴍɪᴜᴍ ꜱʟᴏᴛꜱ ᴡɪʟʟ ʙᴇ ᴏᴘᴇɴᴇᴅ ᴀᴛ ᴍᴏɴᴛʜ ᴇɴᴅ ᴏɴʟʏ.\n\nᴍᴀɴᴛᴀɪɴᴇᴅ ʙʏ : <a href="https://t.me/WMF_OFFICIAL">ᴡᴍꜰ x ᴡᴀʟᴅʏ</a>"</b>
 
 <i>Aᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴛᴏ sᴇᴇ ᴛʜᴇ ᴍᴀɢɪᴄ ᴏʀ ʀᴇᴀᴅ ᴍᴏʀᴇ ғʀᴏᴍ ᴛʜᴇ ᴍᴇɴᴜ ʙᴇʟᴏᴡ</i>''')
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝙼𝚈 𝙷𝙴𝙻𝙿 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
-    ABOUT_TXT = """<b><i>🤖 ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/HDMovie_WMFBot><b>HD Movie Search Bot</b></a>\n
+    ABOUT_TXT = """<b><i>🤖 ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/PiracyMovie_WMFBot><b>Piracy Movie Search Bot</b></a>\n
 👨‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/WMF_Official><b>ᴡᴍꜰ x ᴡᴀʟᴅʏ</b></a>\n
 📝 ʟᴀɴɢᴜᴀɢᴇ : ᴘʏʀᴏɢʀᴀᴍ\n
 📚 ꜰʀᴀᴍᴇᴡᴏʀᴋ : ᴘʏᴛʜᴏɴ 3\n
